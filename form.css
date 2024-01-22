@@ -1,0 +1,51 @@
+form{
+    background-color: cyan;
+    margin: auto;
+    padding-left: 100px;
+    border-radius: 20px;
+    width: 50%;
+    padding:30px;
+    height: 600px;
+}
+legend{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.one {
+    margin-left: 20%;
+    font-size: 30px;
+    background-color: lightgreen;
+    height: 60px;
+    width: 20%;
+}
+.two{
+width: 20%;
+    height: 60px;
+    margin-left: 10%;
+    font-size: 30px;
+    background-color: darkblue;
+    margin-bottom: 50px;
+}
+input[text],input[date],input[radio]select[textarea]{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     width: 60%;
+    height: 20px;
+    border-radius: 5px;
+
+}
+label {
+    text-align: left;
+    width: 20%;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 30px;
+    height: 50px;
+}
+
+
+1{
+width: 5%;
+}
